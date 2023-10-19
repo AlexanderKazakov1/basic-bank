@@ -40,7 +40,7 @@ cd {your directory}/basic-bank
     POST /api/v1/accounts - Create a new bank account for a customer
     GET /api/v1/accounts/{accountId}/balance - Retrieve balance for a given account
     GET /api/v1/accounts/{accountId}/transfers - Retrieve transfer history for a given account
-    PUT /api/v1/accounts/transfer - Transfer amounts between any two accounts
+    POST /api/v1/accounts/transfer - Transfer amounts between any two accounts
 
 ## Technologies
 
